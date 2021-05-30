@@ -49,4 +49,4 @@ const server = http.createServer( async (req,res) => {
 });
 
 const port = process.env.PORT || 5005;
-server.listen(port, ()=>{`Running: ${port}`});
+server.listen(port, () => console.log(`Running: ${port}`));
